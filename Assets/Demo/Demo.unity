@@ -18,7 +18,7 @@ RenderSettings:
   m_FogDensity: .00999999978
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientLight: {r: .970588207, g: .970588207, b: .970588207, a: 1}
+  m_AmbientLight: {r: .397058845, g: .397058845, b: .397058845, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: .5
   m_FlareStrength: 1
@@ -32,7 +32,7 @@ LevelGameManager:
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
-  m_LightProbes: {fileID: 19700000, guid: dd067bd9423ba4194a23396afcc59aee, type: 2}
+  m_LightProbes: {fileID: 0}
   m_Lightmaps:
   - m_Lightmap: {fileID: 2800000, guid: dfe0827577a1b43bc8aa6ed666309bc6, type: 3}
     m_IndirectLightmap: {fileID: 2800000, guid: 4b7f2cd56711647d2b18fd415ccd628d,
@@ -64,7 +64,7 @@ LightmapSettings:
     m_LODSurfaceMappingDistance: 1
     m_Padding: 0
     m_TextureCompression: 0
-    m_LockAtlas: 0
+    m_LockAtlas: 1
 --- !u!196 &5
 NavMeshSettings:
   m_ObjectHideFlags: 0
@@ -3713,12 +3713,12 @@ Light:
   serializedVersion: 3
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .25999999
+  m_Intensity: .180000007
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_Strength: 1
     m_Bias: .0500000007
@@ -3732,7 +3732,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_ShadowSamples: 100
   m_ShadowRadius: 0
   m_ShadowAngle: 0
