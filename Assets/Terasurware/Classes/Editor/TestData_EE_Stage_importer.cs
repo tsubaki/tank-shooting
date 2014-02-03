@@ -8,7 +8,7 @@ using NPOI.SS.UserModel;
 
 public class TestData_EE_Stage_importer : AssetPostprocessor
 {
-    private static readonly string filePath = "Assets/ExcelData/TestData.xls";
+    private static readonly string filePath = "Assets/Demo/ExcelData/TestData.xls";
     private static readonly string[] sheetNames = { "Stage1", };
     
     static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
@@ -24,7 +24,7 @@ public class TestData_EE_Stage_importer : AssetPostprocessor
 
                 foreach (string sheetName in sheetNames)
                 {
-                    var exportPath = "Assets/ExcelData/" + sheetName + ".asset";
+                    var exportPath = "Assets/Demo/ExcelData/" + sheetName + ".asset";
                     
                     // check scriptable object
                     var data = (EE_Stage)AssetDatabase.LoadAssetAtPath(exportPath, typeof(EE_Stage));
@@ -53,12 +53,11 @@ public class TestData_EE_Stage_importer : AssetPostprocessor
                         var p = new EE_Stage.Param();
 			
 					cell = row.GetCell(0); p.Time = (float)(cell == null ? 0 : cell.NumericCellValue);
-					p.pos = new int[5];
+					p.pos = new int[4];
 					cell = row.GetCell(1); p.pos[0] = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(2); p.pos[1] = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(3); p.pos[2] = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(4); p.pos[3] = (int)(cell == null ? 0 : cell.NumericCellValue);
-					cell = row.GetCell(5); p.pos[4] = (int)(cell == null ? 0 : cell.NumericCellValue);
 
                         data.param.Add(p);
                     }
