@@ -58,7 +58,7 @@ public class SceneMerger : MonoBehaviour
         }
 
         overlay = new GameObject("_overlay");
-
+		overlay.hideFlags |= HideFlags.NotEditable;
         foreach (GameObject  go in FindObjectsOfType (typeof(GameObject)) as GameObject[])
         {
             if (go.transform.parent == null && go.name != "_cache" && go != overlay)
@@ -66,6 +66,11 @@ public class SceneMerger : MonoBehaviour
                 go.transform.parent = overlay.transform;
             }
         }
+
+		foreach(var comp in overlay.transform.GetComponentsInChildren<Transform>())
+		{
+			comp.gameObject.hideFlags = HideFlags.NotEditable;
+		}
     }
 
     public void PopSceneObjects()
