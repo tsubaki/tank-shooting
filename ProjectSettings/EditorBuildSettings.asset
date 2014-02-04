@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
+    path: Assets/Scenes/Level0.unity
   - enabled: 1
     path: Assets/Scenes/Stage.unity
