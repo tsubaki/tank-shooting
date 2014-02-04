@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: e1673fb9355164771bc8cfccd6e21aaa
+labels:
+- Level0
+- RunningTank
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []

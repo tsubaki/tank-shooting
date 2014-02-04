@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 15ca712eae0244f1292def9396058da7
+labels:
+- RunningCar
+- Level0
+- Stage
+- RunningTank
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []

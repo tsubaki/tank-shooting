@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 55145993bc5834186bba81923ad3caea
+labels:
+- Stage
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
