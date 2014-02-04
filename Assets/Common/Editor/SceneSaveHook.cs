@@ -10,11 +10,7 @@ public class SceneSaveHook : UnityEditor.AssetModificationProcessor
 
         foreach (string path in paths) {
             if (path.EndsWith (".unity")) {
-                GameObject sceneMergerGO = GameObject.Find ("Scene Merger");
-                if (sceneMergerGO) {
-                    SceneMerger merger = sceneMergerGO .GetComponent<SceneMerger> ();
-                    merger.ClearOverlay ();
-                }
+				SceneOverlay.ClearOverlay();
             }
         }
         return paths;
