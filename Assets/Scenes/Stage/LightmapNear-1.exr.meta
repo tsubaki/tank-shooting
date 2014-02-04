@@ -1,5 +1,10 @@
 fileFormatVersion: 2
-guid: 4b7f2cd56711647d2b18fd415ccd628d
+guid: 16dcbc5c77cbd4d4eadea8820229a48c
+labels:
+- RunningCar
+- Level0
+- Stage
+- RunningTank
 TextureImporter:
   serializedVersion: 2
   mipmaps:
