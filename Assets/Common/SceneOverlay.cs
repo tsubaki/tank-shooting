@@ -8,7 +8,7 @@ public class SceneOverlay : EditorWindow
 
     static void Init ()
     {
-        SceneOverlay window = EditorWindow.GetWindow <SceneOverlay>();
+        EditorWindow.GetWindow <SceneOverlay>();
     }
     
     void OnGUI ()
