@@ -14,9 +14,20 @@
 
 ios build
 android.apk
-Assets/cwgixlw
-Assets/cwgixlw.meta
 Assets/Streets
 Assets/Streets.meta
 Assets/OutPost
 Assets/OutPost.meta
+Assets/Materials
+Assets/vehicle-03-wheel-tex.tif
+Assets/vehicle-03-wheel-tex.tif.meta
+Assets/Car.prefab
+Assets/Car.prefab.meta
+Assets/cwgixlw.meta
+Assets/Materials.meta
+Assets/PFB-Vehicle-03.fbx
+Assets/PFB-Vehicle-03.fbx.meta
+Assets/vehicle-03-tex.tif
+Assets/vehicle-03-tex.tif.meta
+Assets/Car
+Assets/Car.meta
