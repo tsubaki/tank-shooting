@@ -5,6 +5,6 @@ public class RemoveVehicle : MonoBehaviour
 {
 	void OnTriggerEnter (Collider c)
 	{
-		c.gameObject.SetActive (false);
+		c.attachedRigidbody.gameObject.SetActive (false);
 	}
 }
