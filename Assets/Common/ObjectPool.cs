@@ -13,6 +13,12 @@ public class ObjectPool : MonoBehaviour
 	private List<GameObject> pooledObjectList = new List<GameObject> ();
 	private static GameObject poolAttachedObject = null;
 
+	void Awake()
+	{
+		if( poolAttachedObject == null)
+			poolAttachedObject = this.gameObject;
+	}
+
 	void OnEnable ()
 	{
 		if (interval > 0)
