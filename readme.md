@@ -1,5 +1,7 @@
 #readme
 
+![image](image.jpg)
+
 ##以下のアセットを要求します。
 
 [Minicar FREE - Low Poly / Mobile Ready](https://www.assetstore.unity3d.com/#/content/7321
