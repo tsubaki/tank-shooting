@@ -17,7 +17,7 @@ NavMeshLayers:
     editType: 2
   User Layer 0:
     name: Walk
-    cost: 20
+    cost: 2
     editType: 3
   User Layer 1:
     name: 
